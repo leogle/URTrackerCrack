@@ -1,0 +1,22 @@
+﻿<Window x:Class="URTrackerCrack.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:URTrackerCrack"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="536.477" Width="800">
+    <Grid>
+        <Label Content="连接字符串" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="100,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="573"/>
+        <Label Content="机器码" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbMachine" HorizontalAlignment="Left" Height="23" Margin="100,40,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="573"/>
+        <Button Content="获取机器码" HorizontalAlignment="Left" Margin="687,40,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click" Height="23"/>
+        <TextBox x:Name="tbRes" Margin="100,295,120.333,10.333" TextWrapping="Wrap" Text="TextBox"/>
+        <Button Content="Decode" HorizontalAlignment="Left" Margin="687,75,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click_1"/>
+        <Label Content="LocalRConfig" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbCode" HorizontalAlignment="Left" Height="197" Margin="100,74,0,0" TextWrapping="Wrap" Text="kntY57Ht05eAVM/nyf/JXZ69cSWnQtHCRRKnqZfdW4ApmqLDFFg89YY5FJMM03EdnF6blrFe//cmg7/56DkO+4xfFUlNqluBiWw3l77C0A4+XY1g3eAFv9ahrr7FZELjy2fdGBX8P9ObRq2aIo5QqO7TFmsGDS3WbyPZ3o3dXsbi+kjXsrv52CtY3DHREwLoQyR6FSuqbjJuvQfEVMjkSfKGgofUbEo0SLmQmjGJF7Y/Ms4Kyt1zPwoHKa1y2VY9bl2SP4+4qk5TOE0++cDcpRbLxCz3hBs6DNLuIUBVKWmXgo7r9R12ILOsc9ghxbfmViEjFQCglhOHxq/OPADMXWAC1f9nuXql6Xi4dwT2va4hKa6fiByoiKmzLF2tH5RsNC3/zd+rHClTEDss0qU0Wr6LjZkGN5ajZJt+n9oxodS+UrddZ2ZItclhSw/uwNKRdc0fE+wxbxN5U1kvvsy2Of+uvWwW2iStvnBoI9ooLOnk17jmRF+EX434+ffQT3gbUrmqttz5h2OjZVcY556ujS6BuI/wD98mM8sjvacFrvbDJqybYH1oxUbalta2d09hjtABlSrEXFG+zKGEp2B2ycDW3dgB8ohtyNGd2M5xHSmqKytnXp1Y7jwrMwadAAgRhIc1OZBgmfPqcDx21YLh3z3f91O7B3O2UoZMBiqhqdF0OwjH1dNDeJLbtqh4J4T1JMOCzTVp1UNOVwA7Cb7mTFT42N71CxgWPfOYCDmrn4jy8XX6/hGccZc8f7nk2Ubt70Tg38xu4iWtCzLf6V4lxRIfWTXc035TOM0oZMBc0yXND3W+RZOjSxlCwyIpv3mU+/8CIJfMTEww+YsCaD1HQUxPOmg2R37WLBOLR/YaMl1R4BA8iwD1y9Vl/e1uN1AFyxfqtaZDfRZUbKubpdk5beRHWuW7ffZfTrvNSa7Zdc64TGb5AegRv1G4nXTinQK0jWSGoWOGcIC7ckaRHAn5ZAtyxcplVlPM" VerticalAlignment="Top" Width="573" VerticalScrollBarVisibility="Auto"/>
+        <Button Content="EnCode" HorizontalAlignment="Left" Margin="687,100,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click_2" />
+
+    </Grid>
+</Window>
